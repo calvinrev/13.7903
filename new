@@ -1,0 +1,131 @@
+package andoidcentershop;
+import java.util.*;
+
+public class AndoidCenterShop {
+
+    public static void main(String[] args) {
+    //Stok Samsung
+        Samsung samsung1 = new Samsung();
+            samsung1.type= "Galaxy Note 4";
+            samsung1.memoryInternal = 32;
+            samsung1.Ram = 3;
+            samsung1.OS= "Android OS, v4.4.4 (KitKat)";
+            samsung1.layar= "Super AMOLED capacitive touchscreen, 16M colors";
+            samsung1.harga = 7700000;
+    //Stok Oppo        
+    Oppo oppo1 = new Oppo();
+            oppo1.type= "Oppo Mirror 3";
+            oppo1.memoryInternal = 8;
+            oppo1.Ram = 1;
+            oppo1.OS= "Android OS, v4.4.4 (KitKat)";
+            oppo1.layar= "IPS LCD capacitive touchscreen, 16M colors";
+            oppo1.harga = 3200000;
+   //Stok Asus        
+    Asus asus1 = new Asus();
+            asus1.type= "Asus Zenfone 2 ZE551ML (16 GB)";
+            asus1.memoryInternal = 16;
+            asus1.Ram = 2;
+            asus1.OS= "Android OS, v5.0 (Lollipop)";
+            asus1.layar= "IPS capacitive touchscreen, 16M colors";
+            asus1.harga = 2200000;
+   //Stok Asus        
+    Lenovo lenovo1 = new Lenovo();
+            lenovo1.type= "Lenovo Vibe Shot";
+            lenovo1.memoryInternal = 32;
+            lenovo1.Ram = 3;
+            lenovo1.OS= "Android OS, v5.0.x (Lollipop)";
+            lenovo1.layar= "IPS capacitive touchscreen, 16M colors";
+            lenovo1.harga = 4400000;
+   //Stok Asus        
+    Sony sony1 = new Sony();
+            sony1.type= "Sony Xperia E4 Dual E2115";
+            sony1.memoryInternal = 8;
+            sony1.Ram = 1;
+            sony1.OS= "Android OS, v4.4.4 (KitKat)";
+            sony1.layar= "IPS capacitive touchscreen, 16M colors";
+            sony1.harga = 2000000;
+    
+     Order order1 = new Order();
+   
+    
+        Scanner x = new Scanner (System.in);
+                System.out.print("Input Type = ");
+                String y;
+                y = x.nextLine();
+   
+        System.out.println("Type " + samsung1.type);
+        System.out.println("memory internal " + samsung1.memoryInternal);
+        System.out.println("Ram " + samsung1.Ram);
+        System.out.println("Os " + samsung1.OS);
+        System.out.println("Layar " + samsung1.layar);
+        System.out.println("Harga " + samsung1.harga);
+   
+    
+    }
+}
+package andoidcentershop;
+
+public class Samsung {
+    String type;
+    int memoryInternal;
+    int Ram;
+    String OS;
+    String layar;
+    int harga;
+    
+}
+package andoidcentershop;
+
+public class Oppo {
+        String type;
+        int memoryInternal;
+        int Ram;
+        String OS;
+        String layar;
+        int harga;
+        
+}
+package andoidcentershop;
+
+public class Asus {
+    String type;
+    int memoryInternal;
+    int Ram;
+    String OS;
+    String layar;
+    int harga;
+    
+    
+}
+package andoidcentershop;
+
+public class Lenovo {
+    String type;
+    int memoryInternal;
+    int Ram;
+    String OS;
+    String layar;
+    int harga;
+    
+}
+package andoidcentershop;
+
+public class Sony {
+    String type;
+    int memoryInternal;
+    int Ram;
+    String OS;
+    String layar;
+    int harga;
+        
+}
+package andoidcentershop;
+
+public class Order {
+    Samsung samsung1;
+    Oppo oppo1;
+    Asus asus1;
+    Lenovo lenovo1;
+    Sony sony1;
+    
+}
